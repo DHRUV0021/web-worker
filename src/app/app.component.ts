@@ -26,7 +26,7 @@ export class AppComponent implements OnInit {
   find10000thPrimeNumber() {
     if (typeof Worker !== 'undefined') {
 
-      // Create a new  web worker
+      // Create a new  webn worke
       const worker = new Worker(new URL('./app.worker', import.meta.url));
       worker.onmessage = ({ data }) => {
         this.prime10000 = data;
