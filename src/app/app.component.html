@@ -1,14 +1,26 @@
-
 <!-- =====================================WEB WORKER USING ANGULER===================================== -->
-<h1>{{ title }}</h1>
+<h1 style="text-align: center; border: 2px solid red; background-color: pink; ">{{ title }}</h1>
+<div style="text-align: center; display: flex; justify-content: space-around;">
 
-<div>
-   <a href="#" (click)="find10thPrimeNumber()"><button>Click here</button></a> to find 10th prime number
-   <div>The 10<sup>th</sup> prime number is {{ prime10 }}</div> <br />
-   <button><a href="#" (click)="find10000thPrimeNumber()">Click here</a> to find 10000th prime number</button>
-   <div>The 1000<sup>th</sup> prime number is {{ prime10000 }}</div>
-   <div>The 8000<sup>th</sup> prime number is {{ prime100001 }}</div>
-   <div>The 200<sup>th</sup> prime number is {{ prime100002 }}</div>
-   <div>The 3000<sup>th</sup> prime number is {{ prime100003 }}</div>
-   <div>The 6000<sup>th</sup> prime number is {{ prime100004 }}</div>
+   <div>
+      <a href="#" (click)="find10thPrimeNumber()"><button>Click here</button></a> to find 10th prime number
+      <br><br>
+      <div style="color: rgb(255, 0, 8); font-size: 20px; font-weight: 600;">The 10<sup>th</sup> prime number is {{
+         prime10 }}</div>
+   </div>
+
+   <div>
+   <button><a href="#" (click)="find10000thPrimeNumber()" style="color: rgb(17, 105, 181);">Click here</a> to find 10000th prime number</button>
+   <br><br>
+   <div style="color: blue; font-size: 20px; font-weight: 600;">The 1000<sup>th</sup> prime number is {{ prime10000 }}
+   </div>
+   <div style="color: rgb(0, 213, 255); font-size: 20px; font-weight: 600;">The 8000<sup>th</sup> prime number is {{
+      prime100001 }}</div>
+   <div style="color: rgb(8, 223, 112); font-size: 20px; font-weight: 600;">The 200<sup>th</sup> prime number is {{
+      prime100002 }}</div>
+   <div style="color: rgb(184, 50, 246); font-size: 20px; font-weight: 600;">The 3000<sup>th</sup> prime number is {{
+      prime100003 }}</div>
+   <div style="color: rgb(236, 148, 24); font-size: 20px; font-weight: 600;">The 6000<sup>th</sup> prime number is {{
+      prime100004 }}</div>
+   </div>
 </div>
